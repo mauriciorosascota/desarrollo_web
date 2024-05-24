@@ -1,15 +1,35 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.body {
     margin: 0px;
 
 }
 
+.header {
+    background-color: #7f260d;
+    padding: 10px 0;
+    height: 100%;
+  }
+
+.header .logo img {
+    height: 50px;
+  }
 
 .background {
     background-image: url("assets/dune-part-2-poster.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 .container {
@@ -77,4 +97,10 @@ body {
 .btn:hover {
     border: 1px solid rgb(24, 21, 21);
     background-color: rgb(17, 14, 14);
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }

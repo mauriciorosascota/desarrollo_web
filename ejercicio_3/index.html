@@ -4,20 +4,36 @@
       <script src="./functions.js" type="application/javascript"></script>
       <link rel="stylesheet" href="./styles.css">
       <meta charset="utf-8"/>
-      <title>cineplus</title>
+      <title>CinePlus</title>
     </head>
     
     <body>
+      <header class="header">
+        <div class="container">
+          <div class="logo">
+            <img src="assets/klipartz.com.png" alt="CinePlus Logo" style="height: 50px;">
+          </div>
+          <nav class="nav">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Cartelera</a></li>
+              <li><a href="#">Próximamente</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
       <div class="background center">
         <div class="container" id="container">
           <div class="px-3 pt-2">
             <div class="d-flex justify-content-between align-items-center">
                <div class="left">
-                  <h1 class="my-0 color">Dune parte 2</h1>
-                  <span class= "color">ciencia ficcion</span>
+                  <h1 class="my-0 color">Dune Parte 2</h1>
+                  <span class="color">Ciencia Ficción</span>
                </div>
                <div class="right">
-                  <img src="assets/dune-cover.jpg" style="height: 50px;" alt="">
+                  <img src="assets/dune-cover.jpg" style="height: 50px;" alt="Dune Cover">
                 </div>
             </div>
             <p class="color">
@@ -27,21 +43,39 @@
               es la segunda parte de una adaptación de la novela homónima de 1965 
               de Frank Herbert, y que cubre la segunda mitad del libro.
             </p>
-        </div>
 
-        <img src="assets/share.jpg" id="secondphoto" style="width: 100%;" alt="">
+            <p class="color">
+              <strong>Elenco:</strong> Timothée Chalamet, Zendaya, Rebecca Ferguson, Josh Brolin, Javier Bardem, y más.
+            </p>
+            <p class="color">
+              <strong>Equipo:</strong> Director: Denis Villeneuve, Guionistas: Denis Villeneuve, Jon Spaihts, Música: Hans Zimmer.
+            </p>
+          </div>
 
-        <div class="px-3 pt-2 pb-2"></div>
+          <img src="assets/share.jpg" id="secondphoto" style="width: 100%;" alt="Compartir">
+
+          <div class="px-3 pt-2 pb-2">
             <h5 class="my-0 color">COMPRA TUS BOLETOS:</h5>
-
             <div class="d-flex align-items-center justify-content-end">
               <button class="btn mr-2" onclick="changecolor()">
-                <img src="assets/computer-icons-ticket-cinema-png-favpng-6dEP6Q6fJKYqCZ0UNCmUABxrQ.jpg" style="height: 20px;"alt="">
+                <img src="assets/computer-icons-ticket-cinema-png-favpng-6dEP6Q6fJKYqCZ0UNCmUABxrQ.jpg" style="height: 20px;" alt="Comprar Boletos">
               </button>
               <button class="btn" onclick="changecontent()">
-                  <img src="assets/mas informacion.png" style="height: 20px;" alt="">
-            </button>
-      </div>
-    </div>
-  </body>
+                  <img src="assets/mas informacion.png" style="height: 20px;" alt="Más Información">
+              </button>
+            </div>
+          </div>
+
+      <footer class="footer">
+        <div class="container">
+          <p>Contacto: info@cineplus.com</p>
+          <div class="social">
+            <a href="#"><img src="assets/png-transparent-facebook-logo-facebook-messenger-logo-social-media-icon-facebook-icon-blue-text-rectangle-thumbnail.png" alt="Facebook" style="height: 20px;"></a>
+            <a href="#"><img src="assets/png-transparent-icon-logo-twitter-logo-twitter-logo-blue-social-media-area-thumbnail.png" alt="Twitter" style="height: 20px;"></a>
+            <a href="#"><img src="assets/png-transparent-logo-icon-instagram-logo-instagram-logo-purple-violet-text-thumbnail.png" alt="Instagram" style="height: 20px;"></a>
+          </div>
+        </div>
+      </footer>
+
+    </body>
 </html>

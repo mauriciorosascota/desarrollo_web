@@ -3,7 +3,7 @@ body {
     height: 100vh;
 }
 
-.content {
+.background {
     height: 100%;
 
     background-image: url("./assets/chrysanthemum-8256282_1280.webp"); 
@@ -17,8 +17,6 @@ body {
     background-color: rgba(36, 36, 36, 0.393);
     padding: 20px;
     text-align: center;
-
-    width: 50%;
     
 }
 .center {
